@@ -3,6 +3,8 @@ til neste hopp basert på informasjon fra en rutingtabell. Dette fører til at n
 
 Det er utviklet en egen rutingdaemon som kjører en dynamisk Distance Vector Routing-protokoll med Poisoned Reverse for å hindre uendlige rutingsløkker mellom vertene. 
 Rutingdaemonen oppdager naboer, utveksler rutinginformasjon og har en rutingtabell som oppdateres kontinuerlig. I tillegg håndterer den interne ruteoppslag mellom prosesser. 
-Resultatet er en fungerende nettverkslagsimplementasjon med dynamisk ruting, som sikrer at alle verter i systemet kan kommunisere med hverandre.
+Resultatet er en fungerende nettverkslagsimplementasjon med dynamisk ruting, som sikrer at alle verter i systemet kan kommunisere med hverandre. 
+
+Denne oppgaven er testet i mininet, som er et verktøy for å simulere datanettverk.
 
 Se design-dokumentet for mer informasjon.
